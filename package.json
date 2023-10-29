@@ -6,10 +6,13 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "user-service",
-    "product-service",
-    "payment-service",
-    "order-service"
+    "ApiGetway",
+    "delivery",
+    "payment",
+    "order",
+    "packing",
+    "picking",
+    "product"
   ],
   "description": "build ecommerce multiple services",
   "scripts": {
@@ -25,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/nguyenlyminhman/ecomsystem/issues"
   },
-  "homepage": "https://github.com/nguyenlyminhman/ecomsystem#readme"
+  "homepage": "https://github.com/nguyenlyminhman/ecomsystem#readme",
+  "dependencies": {
+    "@nestjs/cli": "^10.2.0"
+  }
 }
